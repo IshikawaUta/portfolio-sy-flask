@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header Image -->
+    <!-- <div class="text-center">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-12.png" style="width: 30%; height: 100px;" alt="Header Image">
+    </div> -->
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-sm bg-success navbar-light">
+        <!-- <a class="navbar-brand" href="#">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/gfg_transparent_white_small.png" alt="Logo" style="width: 40px;">
+        </a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_Navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#educational-info">PENDIDIKAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#prof-skill">KETERAMPILAN PROFESIONAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact-us">HUBUNGI SAYA</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <br><img class="rounded-circle shadow-1-strong mb-4" src="../static/ft-sy.png" alt="Profile" style="width: 150px;">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <h5 class="mb-3">Eka saputra</h5>
+                        <p>Python - Web Development</p>
+                        <p class="text-muted">
+                            <i class="fas fa-quote-left pe-2"></i>
+                            Seorang Web Development memastikan bahwa produk disajikan secara efektif kepada klien dengan menciptakan konten yang jelas, teknis, dan berfokus pada bisnis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="card">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card-body">
+                            <div class="h4 mt-0 title">Tentang Saya</div>
+                            <p>Mahasiswa Semester 1 dalam Ilmu Komputer, ingin memanfaatkan keahlian saya dalam membangun aplikasi web yang responsif dan dapat diskalakan. Terampil dalam pengembangan perangkat lunak dengan penuh semangat untuk menciptakan solusi yang berdampak.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card-body">
+                            <div class="h4 mt-0 title">Informasi Dasar</div>
+                            <div class="row">
+                                <div class="col-sm-4"><strong class="text-uppercase">Umur:</strong></div>
+                                <div class="col-sm-8">20</div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                                <div class="col-sm-8">Komikers09@gmail.com</div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4"><strong class="text-uppercase">No.Telephon:</strong></div>
+                                <div class="col-sm-8">+62 895-7010-6097-3</div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4"><strong class="text-uppercase">Alamat:</strong></div>
+                                <div class="col-sm-8">Kp.Cijengir, Tangerang, Indonesia</div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4"><strong class="text-uppercase">Bahasa:</strong></div>
+                                <div class="col-sm-8">English, Indonesia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section" id="skill">
+        <div class="container my-2">
+            <div class="h4 text-center mb-4 title" id="educational-info">Pendidikan</div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="h5">S1  Teknik Informatika</div>
+                    <p class="category">ARETA INFORMATICS COLLEGE</p>
+                    <p>Menyelesaikan program komprehensif yang berfokus pada pengembangan perangkat lunak dan desain sistem</p>
+                    <p><b>Projects:</b></p>
+                    <ul>
+                        <li>Mengembangkan aplikasi web responsif menggunakan Flask dan Bootstrap.</li>
+                        <li>Membangun alat analisis data dengan Python dan Pandas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Professional Skills Section -->
+    <div class="section" id="skill">
+        <div class="container my-2">
+            <div class="h4 text-center mb-4 title" id="prof-skill">Keterampilan Profesional</div>
+            <div class="card">
+                <div class="card-body">
+                    <b>Programming Languages:</b> Python, SQL, GoLang<br><br>
+                    <b>Tools:</b> NumPy, Pandas, Matplotlib, MS Excel, OpenCV<br><br>
+                    <b>Database Management Systems:</b> MySQL, PostgreSQL, MongoDB, SQLite<br><br>
+                    <b>Internet Technologies:</b> Flask, HTML5, CSS, Django
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <div class="section" id="contact">
+            <div class="h4 text-center title" id="contact-us">Hubungi Saya</div>
+            <div class="card mb-0">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <form action="/sendemail/" method="POST">
+                                <div class="p pb-3"><strong>Jangan ragu untuk menghubungi saya</strong></div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <input class="form-control" type="text" name="name" placeholder="Name" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <input class="form-control" type="text" name="Subject" placeholder="Subject" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <input class="form-control" type="email" name="_replyto" placeholder="your E-mail" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <textarea class="form-control" name="message" placeholder="Your Message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <button class="btn btn-primary" type="submit">Send</button>
+                                        <a class="btn btn-primary" href="{{ url_for('static', filename='Suraj.pdf') }}" target="_blank">Download CV</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Alamat</strong></p>
+                            <p class="pb-2">70, Kp.Cijengir, Tangerang, Indonesia, 15810</p>
+                            <p class="mb-0"><strong>No.Telephon</strong></p>
+                            <p class="pb-2">+62 895-7010-6097-3</p>
+                            <p class="mb-0"><strong>Email</strong></p>
+                            <p>Komikers09@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
