@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman';
+    text-transform: lowercase;
+}
+
+.nav-item {
+    text-decoration: white underline;
+    margin-left: 5px;
+}
+
+.filter {
+    filter: grayscale(1);
+}
+
+.filter:hover {
+    filter: grayscale(0);
+}
+
+.col-sm-4 {
+    text-transform: none;
+    font-weight: bold;
+}
